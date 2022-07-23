@@ -1,3 +1,12 @@
+#Até o momento, vimos alguns jeitos diferentes de agrupar dados: - listas: é uma estrutura mutável, onde utilizamos índices para buscar dados - tuplas: outra estrutura indexada, mas imutável - dicionários: uma coleção de pares chave-valor
+#Essas estruturas podem ser um pouco limitadas quando queremos agregar uma grande quantidade de informações sobre um mesmo "tema", e muitas vezes fizemos "gambiarras" trabalhando com múltiplas listas, criamos funções para tratar esses dados espalhados etc.
+
+#Podemos agregar todos os dados sobre uma certa entidade em um OBJETO. Para criarmos objetos, devemos definir uma CLASSE, que é a "receita" para construir um objeto.
+
+#Todos os objetos de uma mesma classe possuirão as mesmas variáveis internas (atributos) e funções internas (métodos).
+
+#Toda classe deve possui um método construtor, que irá "ensinar" o Python como montar o seu objeto. É uma boa prática inicializar os atributos no construtor. Em Python, o construtor sempre se chamará init
+
 class Comida:
    # para que uma função possa atuar sobre o objeto que a chamou,
    # é necessário passar "self" como parâmetro
