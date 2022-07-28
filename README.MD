@@ -68,3 +68,5 @@ My goal here is to present a Python training, by starting with the programing pr
 ```bash
 pip install -r requirements.txt
 ```
+
+
