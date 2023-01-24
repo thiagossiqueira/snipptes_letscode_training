@@ -8,10 +8,7 @@ Python -m pip install --index-url=https://bcms.bloomberg.com/pip/simple blpapi
 """
 
 import pandas as pd
-from src.Bloomberg.wrapperbloom import BBG # apenas a classe
-import matplotlib.pyplot as plt
-
-
+from src.letscode.Bloomberg.wrapperbloom import BBG # apenas a classe
 
 start_date = '30-mar-2015'
 end_date = pd.to_datetime('today')
